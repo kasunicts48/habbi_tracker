@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:habbi_tracker/models/user_model.dart';
 import 'package:habbi_tracker/screens/authentication/authenticate.dart';
-import 'package:habbi_tracker/screens/home/home.dart';
+import 'package:habbi_tracker/screens/habit_track/habbit_tracker.dart';
+// import 'package:habbi_tracker/screens/home/home.dart';
 import 'package:provider/provider.dart';
 
 class Wrapper extends StatelessWidget {
@@ -15,7 +16,7 @@ class Wrapper extends StatelessWidget {
     if (user == null) {
       return const Authenticate();
     } else {
-      return const Home();
+      return const HabitTracker();
     }
   }
 }
