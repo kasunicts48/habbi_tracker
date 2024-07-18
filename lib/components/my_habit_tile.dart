@@ -54,7 +54,7 @@ class MyHabitTile extends StatelessWidget {
                   : Theme.of(context).colorScheme.secondary,
               borderRadius: BorderRadius.circular(8),
             ),
-            padding: const EdgeInsets.all(12),
+            padding: const EdgeInsets.symmetric(vertical: 0, horizontal: 10),
             child: ListTile(
               // habit text
               title: Text(
