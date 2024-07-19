@@ -9,17 +9,25 @@ class MyHeatMap extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return HeatMap(
-      startDate: startDate,
-      endDate: DateTime.now(),
+    // final DateTime now = DateTime.now();
+    // final DateTime firstDateOfMonth = DateTime(now.year, now.month, 1);
+    // final DateTime firstDayOfNextMonth = (now.month < 12)
+    //     ? DateTime(now.year, now.month + 1, 1)
+    //     : DateTime(now.year + 1, 1, 1);
+    // final DateTime lastDayOfCurrentMonth =
+    //     firstDayOfNextMonth.subtract(const Duration(days: 1));
+
+    return HeatMapCalendar(
+      // startDate: firstDateOfMonth,
+      // endDate: lastDayOfCurrentMonth,
       datasets: datasets,
       colorMode: ColorMode.color,
       defaultColor: Theme.of(context).colorScheme.secondary,
       textColor: Theme.of(context).colorScheme.inversePrimary,
       showColorTip: false,
-      showText: true,
-      scrollable: true,
-      size: 30,
+      // showText: true,
+      // scrollable: true,
+      size: 40,
       colorsets: {
         1: Colors.green.shade200,
         2: Colors.green.shade300,
