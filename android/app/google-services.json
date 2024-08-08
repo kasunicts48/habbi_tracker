@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "959392907844",
-    "project_id": "habit-tracker-b001a",
-    "storage_bucket": "habit-tracker-b001a.appspot.com"
+    "project_number": "47846184616",
+    "project_id": "habit-heat",
+    "storage_bucket": "habit-heat.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:959392907844:android:f9efd626ae263ed2eff211",
+        "mobilesdk_app_id": "1:47846184616:android:711d6824b52b8a259f949d",
         "android_client_info": {
-          "package_name": "com.example.habbi_tracker"
+          "package_name": "habit.heat"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyDLYtUs9rgaKy3S4zCZoMXnpo1BaOowX6A"
+          "current_key": "AIzaSyAqXJ2zgzNXiSRwBf827CO0K-mrF-F9XQE"
         }
       ],
       "services": {

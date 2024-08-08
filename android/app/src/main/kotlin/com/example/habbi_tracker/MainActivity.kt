@@ -1,4 +1,4 @@
-package com.example.habbi_tracker
+package habit.heat
 
 import io.flutter.embedding.android.FlutterActivity
 
